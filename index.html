@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Your Website</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu-bar">
+        <ul>
+          <li>
+            <a href="#">Nav 1 <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li>
+                  <a href="#">SubNav 1 <i class="fas fa-caret-right"></i></a>
+
+                  <div class="dropdown-menu-1">
+                    <ul>
+                      <li><a href="#">SubSubNav 1</a></li>
+                      <li><a href="#">SubSubNav 2</a></li>
+                      <li><a href="#">SubSubNav 3</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">SubNav 2<i class="fas fa-caret-right"></i></a>
+
+                  <div class="dropdown-menu-1">
+                    <ul>
+                      <li><a href="#">SubSubNav 1</a></li>
+                      <li><a href="#">SubSubNav 2</a></li>
+                      <li><a href="#">SubSubNav 3</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">SubNav 3<i class="fas fa-caret-right"></i></a>
+
+                  <div class="dropdown-menu-1">
+                    <ul>
+                      <li><a href="#">SubSubNav 1</a></li>
+                      <li><a href="#">SubSubNav 2</a></li>
+                      <li><a href="#">SubSubNav 3</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">Nav 2 <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li>
+                  <a href="#">SubNav 1 <i class="fas fa-caret-right"></i></a>
+
+                  <div class="dropdown-menu-1">
+                    <ul>
+                      <li><a href="#">SubSubNav 1</a></li>
+                      <li><a href="#">SubSubNav 2</a></li>
+                      <li><a href="#">SubSubNav 3</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">SubNav 2<i class="fas fa-caret-right"></i></a>
+
+                  <div class="dropdown-menu-1">
+                    <ul>
+                      <li><a href="#">SubSubNav 1</a></li>
+                      <li><a href="#">SubSubNav 2</a></li>
+                      <li><a href="#">SubSubNav 3</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">SubNav 3<i class="fas fa-caret-right"></i></a>
+
+                  <div class="dropdown-menu-1">
+                    <ul>
+                      <li><a href="#">SubSubNav 1</a></li>
+                      <li><a href="#">SubSubNav 2</a></li>
+                      <li><a href="#">SubSubNav 3</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">Nav 3 <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li>
+                  <a href="#">SubNav 1 <i class="fas fa-caret-right"></i></a>
+
+                  <div class="dropdown-menu-1">
+                    <ul>
+                      <li><a href="#">SubSubNav 1</a></li>
+                      <li><a href="#">SubSubNav 2</a></li>
+                      <li><a href="#">SubSubNav 3</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">SubNav 2<i class="fas fa-caret-right"></i></a>
+
+                  <div class="dropdown-menu-1">
+                    <ul>
+                      <li><a href="#">SubSubNav 1</a></li>
+                      <li><a href="#">SubSubNav 2</a></li>
+                      <li><a href="#">SubSubNav 3</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">SubNav 3<i class="fas fa-caret-right"></i></a>
+
+                  <div class="dropdown-menu-1">
+                    <ul>
+                      <li><a href="#">SubSubNav 1</a></li>
+                      <li><a href="#">SubSubNav 2</a></li>
+                      <li><a href="#">SubSubNav 3</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <h1>Select an option:</h1>
+
+        <select id="jsonDataSelect" onchange="displaySelectedOption()"></select>
+
+        <div id="selectedOptionDisplay"></div>
+      </div>
+
+      <div class="context">
+        <div id="selectedPostCount"></div>
+      </div>
+
+      <footer class="footer">
+        <!-- <p>Your Footer</p> -->
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
